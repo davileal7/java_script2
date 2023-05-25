@@ -43,7 +43,7 @@ somaC(5,5)
 let valor = 0
 
 function add(v) {
-    return valor + v
+    return valor = v
 }
 
 valor = add(20)

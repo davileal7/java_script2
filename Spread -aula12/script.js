@@ -1,3 +1,5 @@
+//transforma em ARRAY 
+
 let n1 = [1,2,3,4]
 let n2 = [10,20,30,40]
 let n3 = [100,200,300,400]
