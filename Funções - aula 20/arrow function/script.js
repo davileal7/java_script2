@@ -1,10 +1,7 @@
 const soma=(n1,n2) => {
     return n1 + n2
 }
-
 console.log(soma(6,6))
-
-
 
 // função dentro de outra função
 const somaB = (...valores) => {

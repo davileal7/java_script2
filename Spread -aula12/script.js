@@ -26,9 +26,9 @@ console.log(soma(2,2,2))
 const objs = document.getElementsByTagName("div")
 const objs2 = [...document.getElementsByTagName("div")]
 
-//objs2.forEach(element => {
-//    element.innerHTML = "ZERADO"
-//});
+objs2.forEach(element => {
+    element.innerHTML = "ZERADO"
+});
 
 console.log(objs)
 console.log(objs2)
