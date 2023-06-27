@@ -1,0 +1,56 @@
+ * {
+    padding: 0px;
+    margin: 0px;
+    border: none;
+ }
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+button {
+    color: white;
+    background-color: blue;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.time {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    border: 4px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 5px 0px;
+    cursor: pointer;
+}
+
+.curso:hover {
+    border-color: red;
+}
+
+
+
+/*verificar toogle */
+.selecionado {
+    background-color: purple !important;
+    color: white !important;
+    border-color: black !important;
+}
+
+.caixa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid black;
+    flex-direction: column;
+    padding: 10px;
+    margin: 5px;
+    width: 300px;
+    height: 500px;
+
+}

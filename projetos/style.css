@@ -1,0 +1,80 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.game {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 5px 0px;
+    cursor: pointer;
+    scale: 0.7;
+}
+.game:hover{
+    scale: 1.1;
+    transition: 1s;
+}
+
+.capa {
+    width: 200px;
+}
+
+
+.curso:hover {
+    border-color: red;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid black;
+    padding: 30px;
+    margin: 20px;
+    height: 900px;
+    width: 300px;
+}
+
+.destaque {
+    background-color: black !important;
+    border-color: black !important;
+    transition: 1s;
+}
+
+.play {
+    background-color: greenyellow !important;
+    border-color: black !important;
+    transition: 1s;
+}
+
+.btn1, .btn2, .btn3 {
+    color: white;
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    scale: 0.8;
+}
+
+.btn1 {
+    background-color: blue; 
+}
+.btn2 {
+    background-color: rgb(192, 30, 24);
+}
+.btn3 {
+    background-color: rgb(69, 186, 69);  
+}
+
+.btn1:hover,
+.btn2:hover,
+.btn3:hover {
+    scale: 1.2;
+    transition: 1s;
+}

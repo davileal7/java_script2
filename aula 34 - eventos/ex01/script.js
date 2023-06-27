@@ -4,7 +4,6 @@ const btn = document.querySelector("#btn_transferir")
 
 const todosTimes = [...document.querySelectorAll(".time")]
 
-
 todosTimes.map((el)=>{
     el.addEventListener("click", (evt) =>{
         const time = evt.target

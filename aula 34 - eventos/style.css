@@ -43,6 +43,7 @@ button {
     color: darkgray;
 }
 
+/*verificar toogle */
 .selecionado {
     background-color: purple !important;
     color: white !important;
