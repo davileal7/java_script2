@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    font-size: large;
+}
+
+.caixa {
+    border: 5px solid black;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin: 1px;
+    padding: 5px;
+}
+
+button {
+    color: white;
+    background-color: blue;
+    width: 70px;
+    height: 40px;
+    margin-top: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
