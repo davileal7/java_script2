@@ -30,7 +30,7 @@ class Carro {
           return this.vel
      }
      getInfo(){
-          return [this.nome,this.tipo,this.vel]
+          return [this.nome, this.tipo, this.vel]
      }
      //altera propriedades da nossa classe
      setNome(nome){
