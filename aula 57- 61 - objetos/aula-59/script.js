@@ -3,10 +3,11 @@
 class Pessoa {
      constructor(par_nome, par_idade){
           this.nome = par_nome
-          this.idade = par_idade
-          
+          this.idade = par_idade 
      }
      //métodos
+
+     //altera propriedades da nossa classe
      getNome(){
           return this.nome
      }
@@ -18,7 +19,7 @@ class Pessoa {
      setNome(nome){
           this.nome=nome
      }
-     setTipo(idade){
+     setIdade(idade){
           this.idade=idade
      }
     
@@ -34,12 +35,13 @@ let pessoas =[]
 const btn_add = document.querySelector("#btn_add")
 const res = document.querySelector(".res")
 
+//criando nova 'div' '.res'
 const addPessoa=()=> {
      res.innerHTML=""
-     pessoas.map((p)=>{
+     pessoas.map((el)=>{
           const div=document.createElement("div")
           div.setAttribute("class", "pessoa")
-          div.innerHTML= `Nome: ${p.getNome()}<br/>Idade: ${p.getIdade()}`
+          div.innerHTML= `Nome: ${el.getNome()}<br/>Idade: ${el.getIdade()}`
           res.appendChild(div)
      })
 }
@@ -48,10 +50,13 @@ const addPessoa=()=> {
 btn_add.addEventListener("click", (evt) => {
      const nome = document.querySelector("#nome")
      const idade = document.querySelector("#idade")
-     const p = new Pessoa(nome.value, idade.value)
-     pessoas.push(p)
+     const newPessoa = new Pessoa(nome.value, idade.value)
+     //adcionando ao array de *pessoas
+     pessoas.push(newPessoa)
      nome.value=""
      idade.value=""
      nome.focus()
      addPessoa()
 })
+
+

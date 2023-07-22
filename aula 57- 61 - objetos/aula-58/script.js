@@ -3,8 +3,10 @@
 class Carro {
      canal = "You Tube"
      constructor(par_nome, tipo){
+         
           this.canal = "CFB Cursos"
           this.nome = par_nome
+         
           if (tipo == 1) {
                this.tipo="Esportivo"
                this.vel=300
@@ -20,6 +22,8 @@ class Carro {
           }
      }
      //métodos
+
+     //obter valores das classes
      getNome(){
           return this.nome
      }
@@ -34,13 +38,13 @@ class Carro {
      }
      //altera propriedades da nossa classe
      setNome(nome){
-          this.nome=nome
+          this.nome = nome
      }
      setTipo(tipo){
-          this.tipo=tipo
+          this.tipo = tipo
      }
      setVel(vel){
-          this.vel=vel
+          this.vel = vel
      }
      info(){
           console.log(`Nome: ${this.nome}`)
@@ -60,9 +64,9 @@ let c4 = new Carro("Prf", 4)
 //console.log(c1.tipo)
 //console.log(c1.vel)
 
-c1.setNome("Mustang")
+//c1.setNome("Mustang")
 
-c1.info()
+c3.info()
 //c2.info()
 
-//console.log(c1.getInfo())
+console.log(c1.getNome())
